@@ -1,0 +1,52 @@
+nav {
+    background-color: darkblue;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+nav li {
+    list-style: none;
+
+}
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.currentPage{
+    background-color: lightsteelblue;
+}
+nav li a:hover {
+background-color: lightblue;
+}
+/* deel 1 van de oefening */
+.cat:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.dog:active {
+    color: red;
+    font-style: italic;
+}
+
+.cow:visited {
+    color: yellow;
+}
+
+form input:focus {
+    color: darkgreen;
+    font-size: 20px;
+    border: solid 20px;
+    border-color: aqua;
+}
